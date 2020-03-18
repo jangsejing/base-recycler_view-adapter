@@ -14,7 +14,7 @@ class MainViewModel(application: Application) : BaseViewModel(application) {
 
     fun setList() {
         val list = mutableListOf<MainData>()
-        for (i in 1..10) {
+        for (i in 1..50) {
             list.add(MainData("tag", "title $i"))
         }
         _list.value = list

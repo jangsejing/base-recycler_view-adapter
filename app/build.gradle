@@ -57,8 +57,12 @@ dependencies {
     implementation 'androidx.constraintlayout:constraintlayout:1.1.3'
     implementation 'androidx.recyclerview:recyclerview:1.1.0'
 
-    def lifeCycle = '2.1.0'
+    def lifeCycle = '2.2.0'
     implementation "androidx.lifecycle:lifecycle-extensions:$lifeCycle"
     implementation "androidx.lifecycle:lifecycle-viewmodel:$lifeCycle"
     implementation "androidx.lifecycle:lifecycle-runtime:$lifeCycle"
+}
+
+dependencies {
+    implementation 'com.google.android.material:material:1.1.0'
 }
